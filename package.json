@@ -1,0 +1,21 @@
+{
+  "name": "earworm",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Turn your notes into a 30-second study song, then get quizzed on the words you just heard.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^3.2.4"
+  }
+}
